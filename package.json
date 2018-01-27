@@ -1,0 +1,41 @@
+{
+  "name": "koa2-bunyan-server",
+  "version": "1.0.0",
+  "description": "A structured logging example using koa2 and bunyan",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "nyc mocha test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrukh/koa2-bunyan-server.git"
+  },
+  "keywords": [
+    "koa2",
+    "bunyan",
+    "logging"
+  ],
+  "author": "Anton Drukh",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/adrukh/koa2-bunyan-server/issues"
+  },
+  "homepage": "https://github.com/adrukh/koa2-bunyan-server#readme",
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "http-errors": "^1.6.2",
+    "koa": "^2.4.1",
+    "lodash": "^4.17.4",
+    "then-sleep": "^1.0.1",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "chai-subset": "^1.6.0",
+    "mocha": "^4.0.1",
+    "nyc": "^11.4.1",
+    "supertest": "^3.0.0",
+    "supertest-as-promised": "^4.0.2"
+  }
+}
